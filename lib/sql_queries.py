@@ -29,6 +29,6 @@ select_oldest_bear_and_returns_name_and_age = """
 select_youngest_bear_and_returns_name_and_age = """
     SELECT name, age
     FROM bears
-    ORDER BY age ASC
+    ORDER BY age
     LIMIT 1;
 """
